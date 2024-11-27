@@ -71,7 +71,7 @@ This project is a **Role-Based Access Control (RBAC) UI** created as part of VRV
 ## How to Run the Project
 1. Clone this repository:
    ```bash
-   git clone [<repository-link>](https://github.com/priyanshutariyal02/RBAC.git)
+   git clone https://github.com/priyanshutariyal02/RBAC.git
   
 2. Install dependencies:
    ```bash
