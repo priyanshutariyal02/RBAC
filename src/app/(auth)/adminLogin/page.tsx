@@ -1,8 +1,7 @@
 "use client";
+
 import axios from "axios";
-import Link from "next/link";
 import React, { FormEvent, useState } from "react";
-import { FcGoogle } from "react-icons/fc";
 import { useRouter } from "next/navigation";
 
 const Login = () => {
