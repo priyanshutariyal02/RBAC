@@ -28,12 +28,8 @@ const Login = () => {
         setAuthError("");
         router.push("/home");
       }
-    } catch (error: any) {
+    } catch (error) {
       console.error("Login error:", error);
-      setAuthError(
-        error.response?.data?.message ||
-          "Something went wrong. Please try again."
-      );
     }
   };
   return (

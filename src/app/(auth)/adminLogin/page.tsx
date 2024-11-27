@@ -28,16 +28,11 @@ const Login = () => {
         setAuthError("");
         router.push("/admin");
       }
-    } catch (error: any) {
+    } catch (error) {
       console.error("Login error:", error);
-      setAuthError(
-        error.response?.data?.message ||
-          "Something went wrong. Please try again."
-      );
     }
   };
 
- 
   return (
     <div className="w-full min-h-screen flex flex-col items-center justify-center gap-5">
       <h1 className="font-bold text-2xl">Admin</h1>
