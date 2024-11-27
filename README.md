@@ -41,6 +41,7 @@ This project is a **Role-Based Access Control (RBAC) UI** created as part of VRV
 ![Screenshot 2024-11-27 162617](https://github.com/user-attachments/assets/c7ed661f-c282-42ec-ae52-243adf268749)
 - Verifies user credentials using JWT and a middleware for login processing.
 - After successful login, navigates to the **Home Page**, displaying:
+  ![Screenshot 2024-11-27 162736](https://github.com/user-attachments/assets/a6ea7d60-c625-4dcd-b192-d00a3d21851a)
   - **Username**
   - **Email**
   - **Role**
@@ -51,6 +52,7 @@ This project is a **Role-Based Access Control (RBAC) UI** created as part of VRV
 - Admin login is accessed by modifying the URL from `http://localhost:3000/` to `http://localhost:3000/adminLogin`.
 - Admin details are stored in a separate MongoDB collection (`admin`).
 - Admin Home Page displays:
+  ![Screenshot 2024-11-27 202908](https://github.com/user-attachments/assets/b8252161-6ea1-4154-a21f-ce353a4d91bc)
   - **Admin Name**
   - **Email**
   - **Logout** button.
