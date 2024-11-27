@@ -26,7 +26,7 @@ const Page = () => {
         setEmail("");
         setPassword("");
         setAuthError("");
-        router.push("/home");
+        router.push("https://rbac-vrv-ass.vercel.app/home");
       }
     } catch (error) {
       console.error("Login error:", error);
