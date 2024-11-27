@@ -58,7 +58,7 @@ const Page = () => {
         setConfirmPass("");
         setRole("");
         if (res.status == 200) {
-          router.push("https://rbac-vrv-ass.vercel.app/login");
+          router.push("/login");
         }
       } catch (error) {
         console.log(error);
