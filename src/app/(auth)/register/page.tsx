@@ -4,7 +4,7 @@ import React, { useState, useEffect, FormEvent } from "react";
 import axios from "axios";
 import { useRouter } from "next/navigation";
 import { FaUserGroup, FaUserLarge } from "react-icons/fa6";
-const Register = () => {
+const Page = () => {
   const inputClass =
     "outline-none border w-[20rem] border-gray-400/40 p-2 rounded-md";
 
@@ -199,4 +199,4 @@ const Register = () => {
   );
 };
 
-export default Register;
+export default Page;

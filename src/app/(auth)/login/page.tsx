@@ -4,7 +4,7 @@ import Link from "next/link";
 import React, { FormEvent, useState } from "react";
 import { useRouter } from "next/navigation";
 
-const Login = () => {
+const Page = () => {
   const inputClass =
     "outline-none border w-[20rem] border-gray-400/40 p-2 rounded-md";
 
@@ -70,7 +70,7 @@ const Login = () => {
         </button>
       </form>
       <p>
-        Don't have an account?{" "}
+        Don&apos;t have an account?{" "}
         <Link href="/register" className="text-blue-600 underline">
           Register
         </Link>
@@ -87,4 +87,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Page;

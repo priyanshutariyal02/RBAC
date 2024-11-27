@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-const page = () => {
+const Page = () => {
   return (
     <div className="relative w-full min-h-screen flex items-center justify-center flex-col gap-5">
       <h1 className="text-4xl font-bold text-[#1f1f1f]">
@@ -25,4 +25,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

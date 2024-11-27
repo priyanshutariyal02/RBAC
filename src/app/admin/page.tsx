@@ -9,7 +9,7 @@ interface AdminData {
   email: string;
 }
 
-const page = () => {
+const Page = () => {
   const router = useRouter();
   const [adminData, setAdminData] = useState<AdminData | null>(null);
   const [error, setError] = useState<string>("");
@@ -40,7 +40,7 @@ const page = () => {
       router.push("/");
     }
   };
-  
+
   if (error) {
     return <div>Error: {error}</div>;
   }
@@ -66,4 +66,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

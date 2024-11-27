@@ -1,4 +1,3 @@
-import Auth from "@/app/models/auth";
 import { NextRequest, NextResponse } from "next/server";
 import bcryptjs from "bcryptjs";
 import Connection from "@/database/config";

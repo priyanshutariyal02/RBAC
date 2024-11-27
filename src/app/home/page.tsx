@@ -10,7 +10,7 @@ interface UserData {
   role: string;
 }
 
-const page = () => {
+const Page = () => {
   const [user, setUser] = useState<UserData | null>(null);
   const [error, setError] = useState("");
 
@@ -70,4 +70,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
