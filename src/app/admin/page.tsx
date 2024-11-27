@@ -16,7 +16,7 @@ const Page = () => {
 
   useEffect(() => {
     const fetchAdmin = async () => {
-      const res = await fetch("api/getAdmin", {
+      const res = await fetch("/api/getAdmin", {
         method: "GET",
         credentials: "include",
       });
@@ -35,7 +35,7 @@ const Page = () => {
   const handleLogout = async (e: FormEvent) => {
     e.preventDefault();
     //Api call
-    const res = await axios.get("api/auth/logout");
+    const res = await axios.get("/api/auth/logout");
     if (res.status == 200) {
       router.push("/");
     }

@@ -20,7 +20,7 @@ const Page = () => {
       return;
     }
     try {
-      const res = await axios.post("api/auth/admin", { email, password });
+      const res = await axios.post("/api/auth/admin", { email, password });
 
       if (res.status == 200) {
         setEmail("");

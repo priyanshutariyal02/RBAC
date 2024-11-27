@@ -46,7 +46,7 @@ const Page = () => {
     e.preventDefault();
     if (!passwordError) {
       try {
-        const res = await axios.post("api/auth/register", {
+        const res = await axios.post("/api/auth/register", {
           username,
           email,
           password,
